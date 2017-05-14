@@ -1,0 +1,12 @@
+         7150181 function calls in 29.910 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   29.910   29.910 {built-in method builtins.exec}
+        1    0.000    0.000   29.910   29.910 <string>:2(<module>)
+        1    5.119    5.119   29.910   29.910 <ipython-input-2-45231d334fb3>:11(lbp_representation)
+  3575088   21.315    0.000   24.791    0.000 <ipython-input-2-45231d334fb3>:1(lbp)
+  3575088    3.476    0.000    3.476    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.core.multiarray.empty}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}

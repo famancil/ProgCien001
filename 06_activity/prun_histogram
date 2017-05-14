@@ -1,0 +1,21 @@
+         7150219 function calls in 47.665 seconds
+
+   Ordered by: cumulative time
+   List reduced from 31 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000   47.665   47.665 {built-in method builtins.exec}
+        1    0.000    0.000   47.665   47.665 <string>:2(<module>)
+        1   14.928   14.928   47.665   47.665 <ipython-input-2-45231d334fb3>:23(lbp_histogram)
+        1    5.604    5.604   32.737   32.737 <ipython-input-2-45231d334fb3>:11(lbp_representation)
+  3575088   23.267    0.000   27.133    0.000 <ipython-input-2-45231d334fb3>:1(lbp)
+  3575088    3.866    0.000    3.866    0.000 {method 'astype' of 'numpy.ndarray' objects}
+        1    0.000    0.000    0.000    0.000 warnings.py:85(_showwarnmsg)
+        1    0.000    0.000    0.000    0.000 warnings.py:20(_showwarnmsg_impl)
+        1    0.000    0.000    0.000    0.000 iostream.py:361(write)
+        2    0.000    0.000    0.000    0.000 iostream.py:180(schedule)
+        1    0.000    0.000    0.000    0.000 iostream.py:298(_schedule_flush)
+        2    0.000    0.000    0.000    0.000 {built-in method posix.urandom}
+        1    0.000    0.000    0.000    0.000 warnings.py:106(_formatwarnmsg)
+        1    0.000    0.000    0.000    0.000 warnings.py:398(__init__)
+        1    0.000    0.000    0.000    0.000 warnings.py:35(_formatwarnmsg_impl)
