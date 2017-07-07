@@ -1,0 +1,21 @@
+         200089626 function calls (200088340 primitive calls) in 607.935 seconds
+
+   Ordered by: cumulative time
+   List reduced from 1012 to 15 due to restriction <15>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000  607.935  607.935 {built-in method builtins.exec}
+        1    0.000    0.000  607.935  607.935 <string>:2(<module>)
+        1    0.000    0.000  607.935  607.935 <ipython-input-3-158f7a9393a2>:1(func)
+      100  168.590    1.686  607.681    6.077 <ipython-input-2-e70ac1bf2bbc>:27(evolucion)
+100000000  334.813    0.000  334.813    0.000 <ipython-input-2-e70ac1bf2bbc>:1(vecindario)
+100000001  104.190    0.000  104.190    0.000 {method 'count' of 'list' objects}
+        1    0.000    0.000    0.179    0.179 pyplot.py:236(show)
+        1    0.000    0.000    0.179    0.179 backend_inline.py:18(show)
+        1    0.000    0.000    0.178    0.178 display.py:124(display)
+        1    0.000    0.000    0.176    0.176 formatters.py:86(format)
+       11    0.000    0.000    0.176    0.016 formatters.py:186(catch_format_error)
+        9    0.000    0.000    0.176    0.020 <decorator-gen-9>:1(__call__)
+        9    0.000    0.000    0.176    0.020 formatters.py:297(__call__)
+        1    0.000    0.000    0.176    0.176 pylabtools.py:227(<lambda>)
+        1    0.000    0.000    0.176    0.176 pylabtools.py:85(print_figure)

@@ -1,0 +1,33 @@
+Timer unit: 1e-06 s
+
+Total time: 575.554 s
+File: <ipython-input-2-e70ac1bf2bbc>
+Function: vecindario at line 1
+
+Line #      Hits         Time  Per Hit   % Time  Line Contents
+==============================================================
+     1                                           def vecindario(grilla, tablero):
+     2                                           
+     3  47486698     43436249      0.9      7.5      fila = tablero[0].shape[0]
+     4  47486698     30970321      0.7      5.4      columna = tablero.shape[0]
+     5  47486698     25113791      0.5      4.4      x_centro, y_centro = grilla
+     6                                           
+     7                                               #Busca los indices de los puntos del centro.
+     8                                               
+     9  47486698     36783870      0.8      6.4      x_izq  = x_centro-1 if x_centro-1 >= 0 else fila-1
+    10  47486697     35019617      0.7      6.1      x_der = x_centro+1 if x_centro+1 < fila else 0
+    11  47486697     34180209      0.7      5.9      y_arriba    = y_centro-1 if y_centro-1 >= 0 else columna-1
+    12  47486697     33307724      0.7      5.8      y_abajo  = y_centro+1 if y_centro+1 < columna else 0
+    13                                               
+    14                                               #Devuelve una lista con los valores de las celulas vecinas.
+    15                                               
+    16  47486697     45547933      1.0      7.9      resultado = [tablero[y_arriba][x_izq],
+    17  47486697     38967537      0.8      6.8                  tablero[y_arriba][x_centro],
+    18  47486697     37179424      0.8      6.5                  tablero[y_arriba][x_der],
+    19  47486697     37612436      0.8      6.5                  tablero[y_centro][x_izq],
+    20  47486697     36861627      0.8      6.4                  tablero[y_centro][x_der],
+    21  47486697     38717673      0.8      6.7                  tablero[y_abajo][x_izq],
+    22  47486697     37113722      0.8      6.4                  tablero[y_abajo][x_centro],
+    23  47486697     41467711      0.9      7.2                  tablero[y_abajo][x_der]]
+    24                                           
+    25  47486697     23273720      0.5      4.0      return resultado
